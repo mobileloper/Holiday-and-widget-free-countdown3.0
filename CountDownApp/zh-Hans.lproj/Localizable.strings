@@ -1,0 +1,188 @@
+/*
+ Localizable.strings
+ CountDown
+ 
+ Created by Xin Liang on 1/26/13.
+ Copyright (c) 2013 Xin Liang. All rights reserved.
+ */
+
+/* Buttons */
+
+//"Big Days" = "Big Days";
+//"Add" = "Add";
+//"More" = "More";
+//"Feedback" = "Feedback";
+//"Rate this App" = "Rate this App";
+//"Tell Your Friends About this App" = "Tell Your Friends About this App";
+//"Support" = "Support";
+//"Report a Problem" = "Report a Problem";
+//"Done" = "Done";
+//"Cancel" = "Cancel";
+//"Back" = "Back";
+//"Name" = "Name";
+//"Date" = "Date";
+//"Time" = "Time";
+//"Image" = "Image";
+//"Repeat" = "Repeat";
+//"Alert" = "Alert";
+//"Remind Before" = "Remind Before";
+//"Days" = "Days";
+//"Hours" = "Hours";
+//"Minutes" = "Minutes";
+//"Seconds" = "Seconds";
+//"Mins" = "Mins";
+//"Secs" = "Secs";
+//"DAYS" = "DAYS";
+//"HOURS" = "HOURS";
+//"MINS" = "MINS";
+//"SECS" = "SECS";
+//"On" = "On";
+//"Off" = "Off";
+//"Repeating" = "Repeating";
+//"Years" = "Years";
+//"Months" = "Months";
+//"Days" = "Days";
+//"Default Images" = "Default Images";
+//"Photo Albums" = "Photo Albums";
+//"Camera" = "Camera";
+//"Anniversaries" = "Anniversaries";
+//"Holidays" = "Holidays";
+//"Parties" = "Parties";
+//"Events" = "Events";
+//"Celebrations" = "Celebrations";
+//"Yearly" = "Yearly";
+//"Career" = "Career";
+//"Personal" = "Personal";
+//
+//"Edit" = "Edit";
+//"Save Image" = "Save Image";
+//"Send eMail" = "Send eMail";
+//"Send SMS" = "Send SMS";
+//"Facebook" = "Facebook";
+//"Twitter" = "Twitter";
+//"Tap to drag counter" = "Tap to drag counter";
+//"Close" = "Close";
+//"Unlock" = "Unlock";
+//"Unlock " = "Unlock ";
+//
+//"Unlock All Images" = "Unlock All Images";
+//"Restore" = "Restore";
+//"Success" = "Success";
+//"Failed" = "Failed";
+//"Purchase was successful." = "Purchase was successful.";
+//"Thank you" = "Thank you.";
+//
+//"Purchase failed." = "Purchase failed.";
+//"Please try again." = "Please try again.";
+//"Purchase failed. Please try again." = "Purchase failed. Please try again.";
+//"Restore failed." = "Restore failed.";
+//"Please input Name." = "Please input Name.";
+//"Purchasing..." = "Purchasing...";
+//"Restoring..." = "Restoring...";
+//"Please select Target Date." = "Please select Target Date.";
+//"MY FEED" = "My Feed" ;
+//
+//"Date and Time must be after current Date and Time." = "Date and Time must be after current Date and Time.";
+//"Successfully Done" = "Successfully Done";
+//"OK" = "OK";
+//"Yes" = "Yes";
+//"No" = "No";
+//"Delete" = "Delete";
+//"Do you really want to delete this?" = "Do you really want to delete this?";
+//"Posting your Big Day..." = "Posting your Big Day...";
+//"If you like our app, we would greatly appreciate if you can take a moment to rate and write a great review. Thanks for your support!" = "If you like our app, we would greatly appreciate if you can take a moment to rate and write a great review. \nThanks for your support!";
+//"No Thanks" = "No Thanks";
+//"Rate Now!" = "Rate Now!";
+//"Check out this app" = "Check out this app";
+//"Hey,<br/><br/>I just downloaded \"Big Day Countdown\" on my %@!<br/><br/>It's a great app that helps you Countdown your Big Days or Events!<br/><br/>You can download it from the app store:<a href=\"https://itunes.apple.com/app/id581481166?ls=1&mt=8\">https://itunes.apple.com/app/id581481166?ls=1&mt=8</a>" = "Hey,<br/><br/>I just downloaded \"Big Day Countdown\" on my %@!<br/><br/>It's a great app that helps you Countdown your Big Days or Events!<br/><br/>You can download it from the app store:<a href=\"https://itunes.apple.com/app/id581481166?ls=1&mt=8\">https://itunes.apple.com/app/id581481166?ls=1&mt=8</a>";
+//"No internet available." = "No internet available.";
+//"Bug Report" = "Bug Report";
+
+"Big Days" = "大日子";
+"Add" = "添加";
+"More" = "更多";
+"Feedback" = "反馈";
+"Rate this App" = "评价这个应用";
+"Tell Your Friends About this App" = "告诉您的朋友关于这个应用";
+"Support" = "支持";
+"Report a Problem" = "报告问题";
+"Done" = "完成";
+"Cancel" = "取消";
+"Back" = "返回";
+"Name" = "提醒内容";
+"Date" = "年月日";
+"Time" = "时间";
+"Image" = "图像";
+"Repeat" = "重复";
+"Alert" = "提示";
+"Remind Before" = "提前";
+"Days" = "天";
+"Hours" = "小时";
+"Minutes" = "分钟";
+"Seconds" = "秒";
+"Mins" = "分钟";
+"Secs" = "秒";
+"DAYS" = "天";
+"HOURS" = "小时";
+"MINS" = "分钟";
+"SECS" = "秒";
+"On" = "开";
+"Off" = "关";
+"Repeating" = "重复";
+"Years" = "年";
+"Months" = "月";
+"Days" = "天";
+"Default Images" = "默认背景图像";
+"Photo Albums" = "相册";
+"Camera" = "相机";
+"Anniversaries" = "纪念日";
+"Holidays" = "节假日";
+"Parties" = "派对";
+"Events" = "记事";
+"Celebrations" = "庆典";
+"Yearly" = "每年";
+"Career" = "日程";
+"Personal" = "个人";
+
+"Edit" = "编辑";
+"Save Image" = "保存图像";
+"Send eMail" = "发送电子邮件";
+"Send SMS" = "发送短信";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+"Tap to drag counter" = "点击拖动倒计时器";
+"Close" = "关闭";
+"Unlock" = "解锁";
+"Unlock " = "解锁 ";
+
+"Unlock All Images" = "解锁所有图片";
+"Restore" = "恢复状态";
+"Success" = "成功";
+"Failed" = "失败";
+"Purchase was successful." = "购买成功。";
+"Thank you" = "谢谢。";
+
+"Purchase failed." = "购买失败。";
+"Please try again." = "请再试一次。";
+"Purchase failed. Please try again." = "购买失败。 请再试一次。";
+"Restore failed." = "恢复失败。";
+"Please input Name." = "请输入名称。";
+"Purchasing..." = "购买。。。";
+"Restoring..." = "恢复。。。";
+"Please select Target Date." = "请选择目标日期。";
+
+"Date and Time must be after current Date and Time." = "日期和时间，必须在当前的日期和时间之后。";
+"Successfully Done" = "成功完成";
+"OK" = "好";
+"Yes" = "确定";
+"No" = "取消";
+"Delete" = "删除";
+"Do you really want to delete this?" = "是否真的要删除吗？";
+"Posting your Big Day..." = "上传你的大日子。。。";
+"If you like our app, we would greatly appreciate if you can take a moment to rate and write a great review. \nThanks for your support!" = "如果你喜欢我们的应用程序。我们将不胜感激，如果你能花点时间，写一个伟大的审查(写一条评论)。\n感谢您的支持！";
+"No Thanks" = "不，谢谢";
+"Rate Now!" = "马上评论！";
+"Check out this app" = "检查这个应用";
+"Hey,<br/><br/>I just downloaded \"Big Day Countdown\" on my %@!<br/><br/>It's a great app that helps you Countdown your Big Days or Events!<br/><br/>You can download it from the app store:<a href=\"https://itunes.apple.com/app/id581481166?ls=1&mt=8\">https://itunes.apple.com/app/id581481166?ls=1&mt=8</a>" = "嘿，<br/><br/>我刚刚下载的“大日子倒计时”在我的 %@里！<br/><br/> 这是一个伟大的应用程序，可以帮助你你的大日子或活动倒计时！可以从应用程序商店里下载：<a href=\"https://itunes.apple.com/app/id581481166?ls=1&mt=8\">https://itunes.apple.com/app/id581481166?ls=1&mt=8</a>";
+"No internet available." = "网络不可用。";
+"Bug Report" = "错误报告";

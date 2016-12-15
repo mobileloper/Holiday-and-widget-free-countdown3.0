@@ -1,0 +1,35 @@
+//
+// Prefix header for all source files of the 'CountDownApp' target in the 'CountDownApp' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+#define jsonValue(jsonRepresentation) ((id)jsonRepresentation != [NSNull null]) ? jsonRepresentation : nil
+#define LOCALIZED_STRING(stringKey) NSLocalizedString(stringKey, nil)
+
+/* BLOCK MAIN QUEUE*/
+#define BLOCK_ASYNC_RUN_MAIN_QUEUE(methods) dispatch_async(dispatch_get_main_queue(), ^{methods})
+
+/* SHARED INSTANCE BLOCK */
+//-------------------------------------------------------------------------------------
+#define BLOCK_SAFE_RUN(block, ...) block ? block(__VA_ARGS__) : nil
+
+#define DEFINE_SHARED_INSTANCE_USING_BLOCK(block) \
+static dispatch_once_t pred = 0; \
+__strong static id _sharedObject = nil; \
+dispatch_once(&pred, ^{ \
+_sharedObject = block(); \
+}); \
+return _sharedObject;
+//-------------------------------------------------------------------------------------
+
+
+#endif

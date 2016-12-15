@@ -1,0 +1,103 @@
+//
+//  FacebookManager.m
+//  aspire
+//
+//  Created by Satyadev Sain on 9/23/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "FacebookManager.h"
+
+static NSString* kAppId = @"185613654845346";
+//static NSString* kAppSecretKey = @"f03d55e715a63f326388ae1163ec63e7";
+
+NSString* const kFacebookUpdateSuccessNotificationName = @"FacebookUpdateSuccessful";
+NSString* const kFacebookUpdateFailureNotificationName = @"FacebookUpdateFailed";
+static FacebookManager *sharedInstance = nil;
+
+@interface FacebookManager ()
+- (id) initPrivately;
+@end
+
+
+@implementation FacebookManager
+
+@synthesize delegate=delegate_;
+@synthesize facebook=facebook_;
+
++ (FacebookManager *)sharedInstance {
+  if (!sharedInstance) {
+    sharedInstance = [[self alloc] initPrivately];
+  }
+  return sharedInstance;
+}
+
+- (id) initPrivately {
+  
+  if (!kAppId) {
+    NSLog(@"missing app id!");
+    exit(1);
+    return nil;
+  }
+  
+  if ((self = [super init])) {
+    permissions_ =  [[NSArray arrayWithObjects:
+                      @"read_stream", @"publish_stream", @"offline_access",nil] retain];
+    facebook_ = [[Facebook alloc] initWithAppId:kAppId
+                                    andDelegate:self];
+    
+    [facebook_ authorize:permissions_];
+  }
+  return self;
+}
+
+- (void)postMessage:(NSString *)message {
+  
+  NSMutableDictionary* params = [NSMutableDictionary dictionaryWithObjectsAndKeys:message,@"message",@"Test it!",@"name",nil];
+  
+  [facebook_ requestWithGraphPath:@"me/feed"  andParams:params andHttpMethod:@"POST" andDelegate:self];
+}
+
+- (void)postMessage:(NSString *)message andCaption:(NSString *)caption andImage:(UIImage *)image
+{
+    NSMutableDictionary *args = [[[NSMutableDictionary alloc] init] autorelease];
+    [args setObject:caption forKey:@"caption"];
+    [args setObject:message forKey:@"message"];
+    [args setObject:UIImageJPEGRepresentation(image, 0.7) forKey:@"picture"];
+    
+    [facebook_ requestWithMethodName:@"photos.upload" andParams:args andHttpMethod:@"POST" andDelegate:self];
+}
+
+#pragma mark Facebook login delegates
+- (void)fbDidLogin {
+  if ([delegate_ respondsToSelector:@selector(facebookLoginSucceeded)]) {
+    [delegate_ facebookLoginSucceeded];
+  }
+}
+
+-(void)fbDidNotLogin:(BOOL)cancelled {
+  sharedInstance = nil;
+  if ([delegate_ respondsToSelector:@selector(facebookLoginFailed)]) {
+    [delegate_ facebookLoginFailed];
+  }
+}
+#pragma mark facebook delegate methods
+
+/**
+ * FBRequestDelegate
+ */
+- (void)request:(FBRequest *)request didLoad:(id)result {
+  if ([delegate_ respondsToSelector:@selector(messagePostedSuccessfully)]) {
+    [delegate_ messagePostedSuccessfully];
+  }
+}
+
+- (void)request:(FBRequest*)request didFailWithError:(NSError*)error {
+  if ([delegate_ respondsToSelector:@selector(messagePostingFailed)]) {
+    [delegate_ messagePostingFailedWithError:error];
+  }
+}
+
+
+
+@end

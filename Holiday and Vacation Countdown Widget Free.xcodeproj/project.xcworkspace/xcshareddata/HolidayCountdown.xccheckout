@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F13DA012-5684-4C96-B100-F4892377FC41</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HolidayCountdown</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>20E724B1033E693EC265266FAADA6B1C0589BE5D</key>
+		<string>https://bitbucket.org/triumphprosellers/prosellersworldholidays.git</string>
+		<key>ea2ad293-1b71-4273-ab5d-9a81c1c204aa++2374</key>
+		<string>https://brians.unfuddle.com/svn/brians_tango/TongueTango/Tongue%2525252520Tango/en.lproj</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HolidayCountdown.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>20E724B1033E693EC265266FAADA6B1C0589BE5D</key>
+		<string>../..</string>
+		<key>ea2ad293-1b71-4273-ab5d-9a81c1c204aa++2374</key>
+		<string>../..CountDownApp/en.lproj</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>ea2ad293-1b71-4273-ab5d-9a81c1c204aa++2374</key>
+		<string>https://brians.unfuddle.com/svn/brians_tango</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/triumphprosellers/prosellersworldholidays.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>20E724B1033E693EC265266FAADA6B1C0589BE5D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>ea2ad293-1b71-4273-ab5d-9a81c1c204aa++2374</string>
+			<key>IDESourceControlWCCName</key>
+			<string>en.lproj</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>20E724B1033E693EC265266FAADA6B1C0589BE5D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Holiday</string>
+		</dict>
+	</array>
+</dict>
+</plist>

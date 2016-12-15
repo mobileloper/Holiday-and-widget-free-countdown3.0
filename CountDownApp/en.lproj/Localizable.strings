@@ -1,0 +1,99 @@
+/*
+ Localizable.strings
+ CountDown
+ 
+ Created by Xin Liang on 1/26/13.
+ Copyright (c) 2013 Xin Liang. All rights reserved.
+ */
+
+/* Buttons */
+
+"Big Days" = "Big Days";
+"Add" = "Add";
+"More" = "More";
+"Feedback" = "Feedback";
+"Rate this App" = "Rate this App";
+"Tell Your Friends About this App" = "Tell Your Friends About this App";
+"Support" = "Support";
+"Report a Problem" = "Report a Problem";
+"Done" = "Done";
+"Cancel" = "Cancel";
+"Back" = "Back";
+"Name" = "Name";
+"Date" = "Date";
+"Time" = "Time";
+"Image" = "Image";
+"Repeat" = "Repeat";
+"Alert" = "Alert";
+"Remind Before" = "Remind Before";
+"Days" = "Days";
+"Hours" = "Hours";
+"Minutes" = "Minutes";
+"Seconds" = "Seconds";
+"Mins" = "Mins";
+"Secs" = "Secs";
+"DAYS" = "DAYS";
+"HOURS" = "HOURS";
+"MINS" = "MINS";
+"SECS" = "SECS";
+"On" = "On";
+"Off" = "Off";
+"Repeating" = "Repeating";
+"Years" = "Years";
+"Months" = "Months";
+"Days" = "Days";
+"Default Images" = "Default Images";
+"Photo Albums" = "Photo Albums";
+"Camera" = "Camera";
+"Anniversaries" = "Anniversaries";
+"Holidays" = "Holidays";
+"Parties" = "Parties";
+"Events" = "Events";
+"Celebrations" = "Celebrations";
+"Yearly" = "Yearly";
+"Career" = "Career";
+"Personal" = "Personal";
+
+"Edit" = "Edit";
+"Save Image" = "Save Image";
+"Send eMail" = "Send eMail";
+"Send SMS" = "Send SMS";
+"Facebook" = "Facebook";
+"Twitter" = "Twitter";
+"Tap to drag counter" = "Tap to drag counter";
+"Close" = "Close";
+"Unlock" = "Unlock";
+"Unlock " = "Unlock ";
+
+"Unlock All Images" = "Unlock All Images";
+"Restore" = "Restore";
+"Success" = "Success";
+"Failed" = "Failed";
+"Purchase was successful." = "Purchase was successful.";
+"Thank you" = "Thank you.";
+
+"Purchase failed." = "Purchase failed.";
+"Please try again." = "Please try again.";
+"Purchase failed. Please try again." = "Purchase failed. Please try again.";
+"Restore failed." = "Restore failed.";
+"Please input Name." = "Please input Name.";
+"Purchasing..." = "Purchasing...";
+"Restoring..." = "Restoring...";
+"Please select Target Date." = "Please select Target Date.";
+"MY FEED" = "My Feed" ;
+
+"Date and Time must be after current Date and Time." = "Date and Time must be after current Date and Time.";
+"Successfully Done" = "Successfully Done";
+"OK" = "OK";
+"Yes" = "Yes";
+"No" = "No";
+"Delete" = "Delete";
+"Do you really want to delete this?" = "Do you really want to delete this?";
+"Posting your Big Day..." = "Posting your Big Day...";
+"If you like our app, we would greatly appreciate if you can take a moment to rate and write a great review. Thanks for your support!" = "If you like our app, we would greatly appreciate if you can take a moment to rate and write a great review. \nThanks for your support!";
+"No Thanks" = "No Thanks";
+"Rate Now!" = "Rate Now!";
+"Check out this app" = "Check out this app";
+"Hey,<br/><br/>I just downloaded \"Big Day Countdown\" on my %@!<br/><br/>It's a great app that helps you Countdown your Big Days or Events!<br/><br/>You can download it from the app store:<a href=\"https://itunes.apple.com/app/id581481166?ls=1&mt=8\">https://itunes.apple.com/app/id581481166?ls=1&mt=8</a>" = "Hey,<br/><br/>I just downloaded \"Big Day Countdown\" on my %@!<br/><br/>It's a great app that helps you Countdown your Big Days or Events!<br/><br/>You can download it from the app store:<a href=\"https://itunes.apple.com/app/id581481166?ls=1&mt=8\">https://itunes.apple.com/app/id581481166?ls=1&mt=8</a>";
+"No internet available." = "No internet available.";
+"Bug Report" = "Bug Report";

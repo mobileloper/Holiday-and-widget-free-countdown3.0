@@ -1,0 +1,406 @@
+/* 
+  Localizable.strings
+  Tongue Tango
+
+  Created by Chris Serra on 2/14/12.
+  Copyright (c) 2012 Tongue Tango. All rights reserved.
+*/
+
+/* Buttons */
+
+"ADD" = "Add";
+"ACCEPT" = "Accept";
+"BACK" = "Back";
+"BLOCK" = "Block";
+"CANCEL" = "Cancel";
+"CONNECT" = "Connect";
+"CONNECT FB" = "Login with Facebook";
+"CONNECT TW" = "Login with Twitter";
+"CONTINUE" = "Continue";
+"DELETE" = "Delete";
+"DENY" = "Deny";
+"DONE" = "Done";
+"DONT ALLOW" = "Don't Allow";
+"DONT TELL ME AGAIN" = "Don't Tell Me Again"; 
+"EXISTING ACCOUNT" = "Existing Account";
+"FREE" = "Free";
+"GET STARTED" = "Get Started";
+"INVITE" = "Invite";
+"LOGOUT" = "Logout";
+"LOGOUT OF TT" = "Logout of Tongue Tango";
+"LOGIN" = "Login";
+"NEW" = "New";
+"NEW ACCOUNT" = "New Account";
+"NEXT" = "Next";
+"NO THANKS" = "No Thanks";
+"NOT NOW" = "Not Now";
+"RECORD REPLY" = "Record Reply";
+"REMOVE" = "Remove";
+"SAVE" = "Save";
+"SEND" = "Send";
+"SET PICTURE" = "Set Picture";
+"SETTINGS BTTN" = "Settings";
+"SIGN IN" = "Log In";
+"SIGN IN LABEL" = "Sign in using Tongue Tango";
+"SIGN UP" = "Sign Up for Tongue Tango";
+"SIGN UP BUTTON" = "Sign Up";
+"TEXT REPLY" = "Text Reply";
+"UNBLOCK" = "Unblock";
+"YES" = "Yes";
+
+/* Form Fields */
+
+"FIRST NAME" = "First Name";
+"LAST NAME" = "Last Name";
+"USERNAME" = "Username";
+"PASSWORD" = "Password";
+"CONFIRM PASSWORD" = "Retry Password";
+"EMAIL" = "Email";
+"PHONE" = "Phone";
+"PHONE NUMBER" = "Phone Number";
+"CONFIRM" = "Confirm";
+"GROUP NAME" = "Group Name";
+"FORGOT" = "forgot password?";
+
+/* API Connections */
+
+"CONNECT ERROR" = "Connection Error";
+"REQUEST ERROR" = "Request Error";
+"REQUEST ERROR MESSAGE" = "An error has occurred that prevented your request to the server. Please try again later.";
+"UPLOAD ERROR" = "Upload Error";
+"UPLOAD ERROR MESSAGE" = "The message you're trying to send is empty.  Please try again.";
+"UNABLE TO CONNECT" = "Tongue Tango was unable to connect to the server. Please ensure you have access to the internet.";
+
+/* Facebook */
+
+"FB ACTIVITY" = "Retrieving friends from Facebook.";
+"FB CONNECT" = "Connect to Facebook to find your\nfriends on Tongue Tango.";
+"FB ERROR" = "Tongue Tango was unable to connect to your Facebook account. Please try again later.";
+"MY TIMELINE" = "My Timeline";
+
+/* Twitter */
+
+"TW ERROR" = "Tongue Tango was unable to connect to your Twitter account. Please ensure you have access to the internet.";
+"MY FEED" = "My Feed" ;
+
+/* Menu */
+
+"HOME" = "Home";
+"MESSAGES" = "Messages";
+"FRIENDS" = "Friends";
+"GROUPS" = "Groups";
+"FAVORITES" = "Favorites";
+"PROFILE" = "Profile";
+"SETTINGS" = "Settings, Themes & Mics";
+"EXTRAS" = "Extras";
+"FAQS" = "FAQ";
+"ABOUT" = "About";
+
+/* Welcom View */
+"WELCOME" = "Welcome to Tongue Tango!";
+"WELCOME MESSAGE" = "We believe in making life simple, highly social and at the same time fully customized by you.";
+"NEW OR EXISTING" = "How would you like to register?";
+
+/* Registration View */
+
+"PICTURE QUESTION" = "How would you like to set your picture?";
+"PICTURE ANSWER1" = "Take Picture";
+"PICTURE ANSWER2" = "Choose Picture";
+"TYPE NAME" = "Type your name";
+"NO IMAGE TITLE" = "Choose Picture";
+"NO IMAGE MESSAGE" = "Please choose a picture so that your profile isn’t boring looking";
+"NO NAME TITLE" = "Enter a Name";
+"NO NAME MESSAGE" = "So friends can find you, please enter a first name.";
+"OR" = "OR";
+"CAMERA UNAVAILABLE" = "Camera Unavailable";
+"CAMERA NOT AVAILABLE" = "Your device is unable to take a picture. Please choose another option.";
+
+/* Login View */
+"LOGIN ERROR" = "Login Error";
+"SIGN IN ERROR" = "Sign in Error";
+"LOGIN ERROR MESSAGE" = "There were one or more errors in your submission. Please try again.";
+"MISSING UN PW" = "Please enter a username and password to login.";
+"CONFIRM NO MATCH" = "The password and confirmation do not match.  Please try again.";
+
+/* Friends Landing View */
+
+"REGISTRATION COMPLETE" = "Registration Complete!";
+"THANK YOU FOR REGISTERING" = "Thank you for registering for Tongue Tango! In order to use Tongue Tango you will need to connect with some friends…";
+
+/* Add Friends View */
+
+"ADD FRIENDS" = "Add Friends";
+"CONTACTS" = "Contacts";
+"CONTACTS SUBTITLE" = "Find friends from your contacts";
+"FACEBOOK" = "Facebook";
+"FB SUBTITLE" = "Find friends from Facebook";
+"INVITE SUBTITLE" = "Invite friends to join Tongue Tango";
+"SUGGESTIONS" = "Suggestions";
+"TOP RESULTS" = "Top Results for \"%@\"";
+"AB ACCESS" = "Address Book Access";
+"AB ACCESS MESSAGE" = "Tongue Tango would like permission to access your Address Book in order to make suggestions for friends.";
+"CONTACTS PERMISSION" = "Your Contacts";
+"CONTACTS PERMISSION MESSAGE" = "To easily connect to your friends and family, Tongue Tango needs to send your contacts to our server.";
+
+/* Contact Details View */
+
+"ADD FRIEND" = "Add Friend";
+"ADDED FRIEND" = "Added as friend";
+"INVITE SENT" = "Invited sent";
+"PROCESSING" = "Processing...";
+"INVITE FRIEND" = "Invite Friend";
+
+/* Add From Contacts View */
+
+"TT CONTACTS" = "Contacts on Tongue Tango";
+"INVITE TO TT" = "Invite to Tongue Tango";
+"AB ACTIVITY" = "Retrieving friends from your\nAddress Book.";
+"AB ERROR" = "Tongue Tango was unable to retrieve contacts from your Address Book.\nPlease try again later.";
+"AB NO ENTRIES" = "There are no contacts in your\nAddress Book.";
+
+/* Invite Form View */
+
+"INVITE FORM ERROR" = "Invite Form Error";
+"PLEASE ENTER NAME" = "Please enter a first name or last name before continuing.";
+"PLEASE ENTER EMAIL" = "Please enter an email address or phone number before continuing.";
+"INVALID EMAIL" = "Please enter a valid email address.";
+"INVALID PHONE" = "Please enter a valid phone number.";
+"INVITE MESSAGE" = "Invite a friend to enjoy Tongue Tango too! Just fill out the invitation form and tap Next.";
+
+/* Invite View */
+
+"INVITE TITLE" = "Invite %@";
+"VIDEO DEMO" = "Video Demo";
+"VIDEO SUBTITLE" = "Send a Tt video demo";
+"VOICE NOTE" = "Voice Note";
+"VOICE SUBTITLE" = "Send a Tt voice note";
+"RECORD VOICE" = "Record Voice Note";
+"RECORD SUBTITLE" = "Send your own voice note";
+"TEXT" = "Text";
+"TEXT SUBTITLE" = "Send an SMS text";
+"INVITE TEXT MESSAGE" = "Aloha, Hola and Hello - This may be the most important message you get all day.\n\nYour friend, %@ %@, is already using Tongue Tango and you should be too!  Put that incredible smart phone to good use and actually talk to your friends; Texting is so 2011!\n\nTalk, Post, Tweet, Customize, Shout, Theme, Yell, Scream or speak normally if you're really into that sort of thing!\n\nDownload now @\n%@\n\nWhat is Tongue Tango?\nText \"Tt App\" to \"90210\"";
+//"INVITE TEXT MESSAGE" = "So you are getting this email because you don't use Facebook or because %@ %@ prefers to send you emails.\n\nLet's make this easy on both of you, download Tongue Tango and get off this dreaded email system.  Email is so 2011!\n\n%@";
+"INVITE SMS MESSAGE" = "No more thumbs just Tongue. %@ uses Tongue Tango to Talk, Post, Tweet, Scream and Yell, so use some Tongue! %@";
+"INVITE SMS MESSAGE2" = "Get Tongue Tango and let your voice be heard!!\n\nFREE on Apple App Store\n%@\n\nWhat is Tongue Tango?\nText \"Tt App\" to \"90210\"";
+"OPTION UNAVAILABLE" = "Option Unavailable";
+"SMS NOT AVAILABLE" = "Your device is unable to send SMS messages. Please choose another option.";
+"EMAIL NOT AVAILABLE" = "Your device is unable to send Email messages. Please choose another option.";
+"INVITE SENT" = "Your invite has been sent!";
+
+/* Home View */
+
+"TYPE MESSAGE" = "Message Empty";
+"TYPE MESSAGE MESSAGE" = "You must type something or hit cancel.";
+"FB VIDEO POST TITLE" = "Listen to my message...";
+"FB VIDEO POST DESC" = "One of your Tongue Tango friends has something to tell you. If you are new to Facebook, then click the play button and prepare to be amazed!\n\n%@";
+"TW AUDIO POST DESC" = "Click the link to hear my tweet via @TongueTango: ";
+"NEW MESSAGE" = "New Message";
+"PRESS & HOLD TO RECORD" = "Press & Hold to Record";
+"DRAG_PEOPLE_MESSAGE" = "DRAG PEOPLE HERE TO START A GROUP";
+
+/* Messages View */
+
+"SELECT CONTACT" = "Select Contact";
+"PREPARING TO DOWNLOAD" = "Preparing to download...";
+"MESSAGE IS UNAVAILABLE" = "Message is unavailable.";
+"MESSAGE DOWNLOAD FAILED" = "Message download failed.";
+"UNKNOWN USER" = "Unknown User";
+
+"DOWNLOAD AGAIN" = "Download again.";
+/* Friends List View */
+
+"MY FRIENDS" = "Friends";
+"PENDING FRIENDS" = "Pending";
+"ACTIVE FRIENDS" = "Friends";
+"BLOCKED FRIENDS" = "Blocked";
+"NOT GROUP OWNER" = "You're not the group owner";
+"CONTACT GROUP OWNER" = "Please contact the group owner to have yourself removed from this group.";
+"GROUP OWNER" = "(Group Owner)";
+"GROUP NAME TITLE" = "Create a name for your group";
+"GROUP NAME DESC" = "So friends can find your group, please enter a group name.";
+"GROUP PICTURE" = "How would you like to set the group picture?";
+"TONGUE-TASTIC!" = "Tongue-Tastic!";
+"WAITING FOR FRIEND TO ACCEPT" = "Now we are just waiting for your friend to accept you...";
+"SAVE GROUP TITLE" = "Do you want to save your changes?";
+"SAVE GROUP MESSAGE" = "If you don't save, your changes will be lost.";
+"REMOVE ME TITLE" = "Alert";
+"REMOVE ME MESSAGE" = "Are you sure you want to leave this group?";
+
+/* Profile */
+
+"PERSONAL INFO" = "Personal Info";
+"CHANGE PASSWORD" = "Change Password";
+"SOCIAL NETWORKING" = "Social Networking";
+"LOGOUT QUESTION" = "Are you sure you want to logout of Tongue Tango?";
+"PROFILE UPDATED" = "Your profile has been updated.";
+
+/* Settings */
+
+"REVIEW AUDIO" = "Review audio";
+"DEFAULT TO SPEAKER" = "Default to speaker";
+"SKINS" = "Themes";
+"MICROPHONES" = "Microphones";
+"GET MORE THEMES" = "Get More Themes";
+"GET MORE MICROPHONES" = "Get More Microphones";
+"DEFAULT" = "Default";
+
+/* Extras */
+
+"MICROPHONE PACK" = "Microphone Changer: 5 Pack";
+"MICROPHONE DESCRIPTION" = "Choose from 5 different designed microphones to fit your mood.  Tab to Preview the Microphones.";
+"SKIN MY APP" = "Theme My App";
+"SKIN DESCRIPTION" = "Personalize your Tongue Tango App. Select from themes like Military, Desert, Pink Cheetah, and many more.";
+"TAP TO PREVIEW" = "(tap to preview)";
+"THEME PURCHASED" = "Theme Purchased";
+"SET YOUR THEME IN SETTINGS" = "You can set your theme within your Settings";
+"UNABLE TO PURCHASE" = "Sorry, we were unable to purchase this theme. Please tap the purchase button to try again.";
+"UNABLE TO VERIFY HISTORY" = "Sorry, we were unable to verify your purchase history.";
+
+/* About View */
+
+"WEBSITE" = "TongueTango.com";
+"LINKEDIN" = "LinkedIn";
+"TWITTER" = "Twitter";
+"YOUTUBE" = "YouTube";
+"TERMS OF USE" = "Terms of Use";
+"RATE US 5 STARS" = "Rate Us 5 Stars";
+"EMAIL FEEDBACK" = "Email Feedback";
+"EMAIL UNAVAILABLE" = "Email Unavailable";
+"EMAIL NOT SETUP" = "Your device isn't currently setup to send email messages.";
+
+/* Loading */
+"LOADING" = "Loading...";
+"NO RESULTS" = "No Results";
+"APPLYING THEME" = "Applying Theme...";
+"CHECKING PURCHASES" = "Checking Purchases...";
+"CREATING ACCOUNT" = "Creating Account...";
+"LOADING THEMES" = "Loading Themes...";
+"LOGGING IN" = "Logging in...";
+"SYNCING" = "Syncing";
+"SAVING GROUP" = "Saving Group...";
+"SYNC RESULT" = "Successfully Synced";
+"SYNC BODY" = "Now all your friends will automatically be added";
+
+/* Notifications */
+
+"ADDED TO A GROUP" = "You've been added to a group!";
+"HAVE A NEW MESSAGE" = "You have a new message!";
+
+
+
+
+
+
+/* NEW STRINGS */
+
+"Ok" = "Ok";
+
+/* Welcom View */
+"TONGUE_TANGO_TITLE" = "Tongue Tango";
+"WELCOME_VIEW_TITLE" = "Welcome to Tongue Tango";
+
+/* Registration View */
+
+"NO LAST NAME TITLE" = "Enter a Last Name";
+"NO LAST NAME MESSAGE" = "Please enter your last name.";
+"NO USERNAME TITLE" = "Enter an Username";
+"PLEASE CREATE USERNAME" = "Please enter an username, this field is required.";
+"OPTIONAL" = "optional";
+"NO PASSWORD TITLE" = "Enter a Password";
+"NO PASSWORD MESSAGE" = "Please enter a password, and then retype it to confirm.";
+"NO CONFIRMATION PASSWORD TITLE" = "Enter a Password";
+"NO CONFIRMATION PASSWORD MESSAGE" = "Please retype the password to confirm.";
+"NO MATCH PASSWORD TITLE" = "Password mismatch";
+"NO MATCH PASSWORD MESSAGE" = "The same password should be entered in both fields. Please re-enter the password correctly.";
+"SEARCH BAR PLACEHOLDER" = "Search People or Groups";
+"ADD FRIEND" = "Friends";
+"GROUP_LABEL" = "Groups";
+
+/* Twitter Post */
+
+"NEW TWEET" = "NEW TWEET";
+"TWEET" = "Tweet";
+
+/* Login View */
+
+"EMAIL_INVALID" = "Email invalid";
+"PHONE_INVALID" = "Phone invalid";
+
+/* Add Friends View */
+
+"INVITE_ALL_FRIENDS" = "Invite All Contacts";
+"SHARE" = "Share";
+"CONTACTS_TITLE" = "Contacts";
+"FACEBOOK_TITLE" = "Facebook";
+"ADD FRIENDS CAPITAL" = "ADD FRIENDS";
+"ADD" = "Add";
+"TT FRIENDS" = "Friends on Tongue Tango";
+"FB FRIENDS" = "Facebook Friends";
+
+"NOTIFICATIONS" = "Notifications";
+"THEMES" = "Themes";
+
+"LOGOUT BUTTON TITLE" = "Logout";
+"EDIT PASSWORD BUTTON TITLE" = "Edit Password";
+
+"EMAIL FOR PARTNERSHIP" = "Interested in advertising?\nEmail Partnership@tonguetango.com";
+
+
+"FACEBOOK ALREADY LOGGED IN ERROR" = "Facebook error"; 
+"FACEBOOK ALREADY LOGGED IN ERROR MESSAGE" = "You're already logged in to Facebook Account.";
+
+/* labels for edit pwd view */
+"CURRENT PASSWORD PLACEHOLDER" = "Current Password";
+"NEW PASSWORD PLACEHOLDER" = "New Password";
+"RETYPE PASSWORD PLACEHOLDER" = "Retype New Password";
+"PASSWORD UPDATED" = "Your password has been updated.";
+
+"FB CONNECTION ERROR" = "Tongue Tango was unable to connect to your Facebook account. Please ensure you have access to the internet";
+
+"INVITATIONS LABEL" = "Invitations";
+
+"MY FAVORITES" = "My Favorites";
+
+"PURCHASING_PROGRESS_MESSAGE" = "Purchasing %@…";
+
+"CHECKING_PURCHASES_MESSAGE" = "Checking Purchases..."; 
+
+"PRODUCT_PURCHASED_FAILED_ERROR_TITLE" = "Error!"; 
+
+"BUY_MICROPHONES_PACKAGE_QUESTION" = "Would you like to purchase the microphone 5-pack for just $.99?";
+
+"CANCEL_BUTTON_TITLE" = "Cancel"; 
+"YES_BUTTON_TITLE" = "Yes";
+"PREVIEW_BUTTON_TITLE" = "Preview";
+"TRY_AGAIN_BUTTON_TITLE" = "Try Again";
+"NO_THANKS_BUTTON_TITLE" = "No Thanks";
+"OK_BUTTON_TITLE" = "OK";
+
+"ENTER_NEW_PASSWORD_MESSAGE" = "Please enter new password, and then retype it to confirm";
+"RETYPE_NEW_PASSWORD_MESSAGE" = "Please retype the password to confirm";
+"NEW_PASSWORD_DONT_MATCH_ERROR_MESSAGE" = "The same password should be entered in both fields. Please re-enter the password correctly";
+
+"PICTURE" = "Picture";
+
+/* Facebook Error Messages */
+
+"FB ERROR2" = "We couldn't post the audio now. Please try again later";
+
+"MY MICS" = "My Mics";
+"MY THEMES" = "My Themes";
+
+"PROFILE_ENTER_FIRST_NAME" = "Please enter your first name";
+"PROFILE_ENTER_LAST_NAME" = "Please enter your last name";
+
+
+"INVALID THREAD DETAIL DATA" = "Invalid data. Please try again"; // when a notification for new message but is not for this user
+
+"FROM MY CONTACT LIST" = "From My Contact List";
+"ADDRESS BOOK" = "Address Book";
+"FACEBOOK FRIENDS" = "Facebook Friends";
+"SYNC ALERT" = "In order to find yours friends we need to send address book information to Tongue Tango's servers using a secure connection";
+
+"SORRY" = "Sorry";
+"TWITTER_ALERT" = "You can't send a tweet right now, make sure your device has an internet connection and you have at least one Twitter account. Go to Settings > Twitter on your iOS device";
+
+"UPLOADING" = "Uploading...";
